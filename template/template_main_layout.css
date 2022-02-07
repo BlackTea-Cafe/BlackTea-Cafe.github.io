@@ -1,70 +1,48 @@
-﻿/*页头部分↓*/
-.header {
-width:100%;
-background-color: green;
-height:5%;
-text-align:center;
-}
-/*页头部分↑*/
-
-
+﻿
 /*页头导航部分↓*/
-.topnav {
-height:5%;
+.topnav 
+{
+position: static;
+border-color: black;
+border-width: 10px;
+height:8%;
 width:100%;
 overflow: hidden;
-background-color: #68217A;
-text-align:center;
+background-color: #333333;
 }
 /*页头导航部分↑*/
 
 
 /*左侧部分↓*/
-.left {
-float:left;
-background-color: aqua;
+.left 
+{
+position: fixed;
+background-color: azure;
 width:10%;
 text-align:center;
-border-left:2px solid black;
-border-right:4px solid black;
-height:85%;
-
+height:100%;
 }
 /*左侧部分↑*/
 
 
-/*主体部分↓*/
-.mainpage{
-float: right;
-width:89%;
-height:85%;
-border-left:none;
-border-right:2px solid black;
-border-bottom:none;
-text-align: center;
-
-}
-/*主体部分↑*/
-
-
 /*正文内容↓*/
 .textpart{
-float: right;
+background-color: azure;
+position: absolute;
+left: 10%;
 width:89%;
-height:85%;
-border-left:none;
+height:1000px;
+border-left:2px solid black;
 border-right:2px solid black;
-border-bottom:none;
-text-align:left;
-overflow: scroll;
+text-align:center;
 }
 /*正文内容↑*/
 
 
 /*页脚部分↓*/
 .foot{
+position: absolute;
 width:100%;
-clear:both;
 background-color:#1f1e33;
 text-align:center;
 height:5%;
@@ -103,39 +81,28 @@ text-decoration:underline;
 
 
 /*页头导航布局↓*/
-/*表格初始化并位置*/
-.top_index{
-text-align:center;
-width:100%;
-position:relative;
-top:-8px;
-border-collapse:collapse;
-}
-/*设置白框以及位置*/
-.top_index td{
-padding-top: 6px;
-padding-bottom: 6px;
-border: 5px solid white;
-border-width: 5px;
-padding-top:5px;
-font-size:30px;
-color:white;
-}
-/*清除两侧白框*/
-#td-border-left{
-border-left: #68217A;
-}
-#td-border-right{
-border-right: #68217A;
-}
 
-.topnav table td select{
-background-color: #68217A;
-border: none;
-
-
-}
 /*页头导航布局↑*/
+
+.dropdown {
+position: relative;
+display: inline-block;
+z-index: 10;
+}
+
+.dropdown-content {
+display: none;
+position: relative;
+background-color: black;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+z-index: 10;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
 
 
 /*左侧导航布局↓*/
