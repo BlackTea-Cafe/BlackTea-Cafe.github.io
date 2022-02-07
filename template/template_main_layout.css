@@ -17,7 +17,7 @@ border-right:2px solid black;
 .left 
 {
 position: fixed;
-bottom: 10px;
+bottom: 0;
 width:10%;
 text-align:center;
 height:100%;
