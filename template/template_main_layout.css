@@ -1,0 +1,176 @@
+﻿/*页头部分↓*/
+.header {
+width:100%;
+background-color: green;
+height:5%;
+text-align:center;
+}
+/*页头部分↑*/
+
+
+/*页头导航部分↓*/
+.topnav {
+height:5%;
+width:100%;
+overflow: hidden;
+background-color: #68217A;
+text-align:center;
+}
+/*页头导航部分↑*/
+
+
+/*左侧部分↓*/
+.left {
+float:left;
+background-color: aqua;
+width:10%;
+text-align:center;
+border-left:2px solid black;
+border-right:4px solid black;
+height:85%;
+
+}
+/*左侧部分↑*/
+
+
+/*主体部分↓*/
+.mainpage{
+float: right;
+width:89%;
+height:85%;
+border-left:none;
+border-right:2px solid black;
+border-bottom:none;
+text-align: center;
+
+}
+/*主体部分↑*/
+
+
+/*正文内容↓*/
+.textpart{
+float: right;
+width:89%;
+height:85%;
+border-left:none;
+border-right:2px solid black;
+border-bottom:none;
+text-align:left;
+overflow: scroll;
+}
+/*正文内容↑*/
+
+
+/*页脚部分↓*/
+.foot{
+width:100%;
+clear:both;
+background-color:#1f1e33;
+text-align:center;
+height:5%;
+}
+/*页脚部分↑*/
+
+
+/*正文内容标题↓*/
+.title{
+text-align: center;
+letter-spacing:15px;
+}
+/*正文内容标题↑*/
+
+
+/*主页欢迎语格式↓*/
+.welcome{
+text-align: center;
+color:blue;
+letter-spacing:15px;
+}
+/*主页欢迎语格式↑*/
+
+
+/*页头导航文字伪类状态↓*/
+.topnav a:link,a:visited,a:active,a:hover{
+text-decoration:none;
+text-align:center;
+font-weight:10;
+}
+
+.topnav a:hover{
+text-decoration:underline;
+}
+/*页头导航文字伪类状态↑*/
+
+
+/*页头导航布局↓*/
+/*表格初始化并位置*/
+.top_index{
+text-align:center;
+width:100%;
+position:relative;
+top:-8px;
+border-collapse:collapse;
+}
+/*设置白框以及位置*/
+.top_index td{
+padding-top: 6px;
+padding-bottom: 6px;
+border: 5px solid white;
+border-width: 5px;
+padding-top:5px;
+font-size:30px;
+color:white;
+}
+/*清除两侧白框*/
+#td-border-left{
+border-left: #68217A;
+}
+#td-border-right{
+border-right: #68217A;
+}
+
+.topnav table td select{
+background-color: #68217A;
+border: none;
+
+
+}
+/*页头导航布局↑*/
+
+
+/*左侧导航布局↓*/
+.leftpart{
+justify-content: center;
+
+}
+
+.leftpart_index{
+width:100%;
+text-align:center;
+
+}
+/*左框导航文字伪类设置*/
+.leftpart_index td a:link,a:visited,a:active,a:hover{
+font-size:15px;
+}
+
+.leftpart_index td a:link{
+color:blueviolet;
+text-decoration:none;
+}
+
+.leftpart_index td a:visited{
+color:green;
+text-decoration:none;
+}
+
+.leftpart_index td a:active{
+color:palegreen;
+text-decoration:none;
+}
+
+.leftpart_index td a:hover{
+color:red;
+text-decoration:underline;
+}
+/*左侧导航布局↑*/
