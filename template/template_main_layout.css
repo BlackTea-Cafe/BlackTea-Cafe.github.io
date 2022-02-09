@@ -2,9 +2,8 @@
 .topnav 
 {
 position: static;
-
-height:8%;
-width:98.5%;
+height:3.5%;
+width:98%;
 overflow: hidden;
 background-color: #333333;
 margin: auto;
@@ -79,35 +78,44 @@ text-decoration:underline;
 /*页头导航文字伪类状态↑*/
 
 
-/*页头导航布局↓*/
+.topnav-table
+{
+position: absolute;
+}
 
-/*页头导航布局↑*/
+.topnav-surface-content
+{
+color:azure;
+font-size: 20px;
+}
 
 .dropdown {
-position: relative;
 display: inline-block;
-z-index: 10;
 }
 
 .dropdown-content {
 display: none;
-position: relative;
+position: absolute;
 background-color: black;
-min-width: 160px;
+min-width: 80px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 padding: 12px 16px;
-z-index: 10;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content
+{
 display: block;
+}
+
+a.dropdown-link:hover
+{
+font-size: 21px;
 }
 
 
 /*左侧导航布局↓*/
 .leftpart{
 justify-content: center;
-
 }
 
 .leftpart_index{
